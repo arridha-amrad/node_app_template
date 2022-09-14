@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "dev": "DOTENV_CONFIG_PATH=.env.dev tsx watch -r dotenv/config src",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "Arridha Amrad",
