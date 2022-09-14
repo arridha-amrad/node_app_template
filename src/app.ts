@@ -5,6 +5,7 @@ export const createServer = (): express.Express => {
     const app = express();
 
     app.use(express.json());
+
     app.use('/api/test', TestRoute);
 
     return app;

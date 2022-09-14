@@ -2,6 +2,6 @@ import { Router } from 'express';
 
 const router = Router();
 
-router.get('/', (_, res) => res.send('Test route'));
+router.get('/', (_, res) => res.status(200).json({ message: 'Test Routes' }));
 
 export default router;
